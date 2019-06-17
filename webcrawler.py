@@ -19,7 +19,7 @@ def start(url):
 	soup = BeautifulSoup(source_code, 'html.parser')
 	# Text in given web-page is stored under
 	# the <div> tags with class <entry-content>
-	for each_text in soup.find_all('div', {'class': 'entry_content'}):
+	for each_text in soup.find_all('div', {'class': 'entry-content'}):
 		content = each_text.text
 		# use split() to break the sentence into words and convert them into lowercase
 		words = content.lower().split()
