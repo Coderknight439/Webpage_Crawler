@@ -1,5 +1,5 @@
 # This is header 1
-*This is italic*&nbsp;
+*This is italic*  
 **This is bold**
 * unordered list start
  * item 1
